@@ -26,26 +26,26 @@ To get started with the project, follow these steps:
    ```bash
    git clone https://github.com/your-username/travels.git
 
-2.Navigate to the project directory:
+2. Navigate to the project directory:
 
    ```bash
    cd travels
 
-3.Install project dependencies:
+3. Install project dependencies:
 
    ```bash
    npm install
 
-4.Start the server:
+4. Start the server:
    ```bash
    cd server
    npm start
 
-5.Return to the main project directory:
+5. Return to the main project directory:
    ```bash
    cd ../
 
-6.Start the client:
+6. Start the client:
 
    ```bash
    cd client
