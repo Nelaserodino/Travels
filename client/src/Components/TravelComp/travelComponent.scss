@@ -1,0 +1,33 @@
+.travel-card{
+    padding: 20px;
+    margin: 20px 0;
+    
+    button{
+        background-color: rgb(52, 134, 182);
+        border: 2px solid white;
+        width: 20%;
+    }
+}
+.gallery-container{
+    display: flex;
+    flex-wrap: wrap;
+    .gallery-img{
+        width: 150px;
+        height: 200px;
+        margin: 5px;
+        border: 2px solid white;
+        border-radius: 5px;
+        object-fit: cover;
+        object-position: center;
+    }
+    .delete-icon{
+        background-color: rgba(70, 95, 148, 0.338);
+        border: 1px solid rgb(70, 95, 148);
+        border-radius: 5px;
+        padding: 1px;
+        position: relative;
+        bottom: 80px;
+        right: 40px;
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,40 @@
+.user-container{
+    background-image: url('../../../public/images/background.jpg');
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    .background-effect{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color:rgba(0,0,0,0.4);
+    }
+    .profile-details{
+        display: flex;
+        border: 6px solid white;
+        z-index: 10;
+        padding: 20px;
+        border-radius: 10px;
+        background-color: #4257477c;
+        .user-details{
+            color: white;
+            margin-right: 50px;
+            z-index: 10;
+            padding: 20px;
+        }
+        .profile-pic-cont{
+            width: 20vw;
+            z-index: 10;
+            img{
+                width: 250px;
+                height: 250px;
+                border-radius: 50%;
+            }
+        }
+    }
+    
+}
