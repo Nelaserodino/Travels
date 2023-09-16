@@ -25,28 +25,31 @@ To get started with the project, follow these steps:
 
    ```bash
    git clone https://github.com/your-username/travels.git
-Navigate to the project directory:
 
-1.Navigate to the project directory:
-cd travels
-Install project dependencies:
+2.Navigate to the project directory:
 
-2.Install project dependencies:
-Copy code
-npm install
-Start the server:
+   ```bash
+   cd travels
 
-3.Start the server:
-cd server
-npm start
-Return to the main project directory:
+3.Install project dependencies:
 
-4.Return to the main project directory:
-cd ../
+   ```bash
+   npm install
 
-5.Start the client:
-cd client
-npm start
+4.Start the server:
+   ```bash
+   cd server
+   npm start
+
+5.Return to the main project directory:
+   ```bash
+   cd ../
+
+6.Start the client:
+
+   ```bash
+   cd client
+   npm start
 
 This command will launch the React client and Node.js server simultaneously, allowing you to access the application in your web browser.
 
